@@ -19,7 +19,7 @@
 
 
         </style>
-		<meta content="https://nguyendvphp.github.io/2010/2010.png" property="og:image" itemprop="thumbnailUrl">
+		<meta content="2010.png" property="og:image" itemprop="thumbnailUrl">
 </head>
     <body>
 		<audio id="audio" autoplay="autoplay" controls>
