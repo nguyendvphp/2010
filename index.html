@@ -22,7 +22,7 @@
 		<meta content="https://nguyendvphp.github.io/2010/2010.png" property="og:image" itemprop="thumbnailUrl">
 </head>
     <body>
-		<audio id="audio" autoplay="autoplay" controls>
+		<audio id="audio11" autoplay="" controls>
 		  <source src="LaConGaiThatTuyet.mp3" type="audio/mpeg">
 		</audio>
         <div id="main">
@@ -35,7 +35,7 @@
 						<span class="say">(^-^)Nhân ngày 20 - 10 Ngày Liên Hiệp Phụ Nữ Việt Nam(^-^)</span><br>
 <span class="say">Chúc một nửa thế giới luôn xinh đẹp và duyên dáng nhé.</span><br>
 <span class="say">Chúc tất cả luôn tràn ngập hạnh phúc và luôn mạnh khỏe.</span><br>
-<span class="say">Xin cảm ơn!</span><br>
+<span class="say">Phụ nữ là để yêu!</span><br>
 <span class="say" style="text-align:right;">Nguyên, coder!</span><br>
 
 			  </font></p>
@@ -71,7 +71,8 @@
         </div>
     <script type="text/javascript">
 function autoplay(){
-    document.getElementById("audio").play();
+    //document.querySelector('audio').play();
+	console.log('20-10');
   }
 </script>
 <script>autoplay();</script>
@@ -116,7 +117,8 @@ function autoplay(){
 		  const timeinterval = setInterval(updateClock, 1000);
 		}
 
-		const deadline = new Date(Date.parse(new Date()) + 2 * 24 * 60 * 60 * 1000);
+		const deadline = new Date(Date.parse(new Date()) + 10 * 60 * 60 * 1000);
+		// console.log(deadline);
 		initializeClock('clockdiv', deadline);
     </script>
 
